@@ -1,1 +1,17 @@
-.vscode
+# Ignore Python compiled bytecode files
+*.pyc
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore Pytest cache directories
+.pytest_cache/
+
+# Ignore environment variable files
+.env
+
+# Ignore Visual Studio Code configuration directories
+.vscode/
+
+# Ignore virtual environment directories
+.venv/
